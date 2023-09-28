@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color: #026873;
+  height: 80px;
+  
+}
+
+.nav_title{
+  font-size:30px;
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  
+}.add_task{
+  
+  padding:30px;
+  text-align:center;
+  list-style-type: none;
+
+}
+.add_task>input{
+  width: 400px;
+  height:40px;
+  border-radius:10px;
+  padding: 10px;
+  
+}
+
+.add_task>button{
+  background:#2D83A6;
+  color:white;
+  width: 100px;
+}
+
+.task_select{
+  padding:30px;
+  text-align:center;
+  list-style-type: none;
+  
+}
+
+.task_list{
+  list-style-type: none;
+  
+}
+
+
+.conteiner{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+.conteiner_pendentes{
+  justify-content:center;
+  text-align: center;
+  border: 2px solid #026873;
+  width:40%;
+  height:auto;
+  padding:20px;
+  gap: 0px 20px;
+  border-radius:10px;
+  
+}
+.conteiner_concluidas{
+  justify-content:center;
+  text-align: center;
+  border: 2px solid #026873;
+  width:40%;
+  height:auto;
+  padding:20px;
+  border-radius:10px;
+  
+}
+
+button{
+  width:auto;
+  height:40px;
+  padding:5px;
+  border-radius:10px;
+  font-size: 15px;
+}
